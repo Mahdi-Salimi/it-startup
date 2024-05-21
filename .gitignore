@@ -1,0 +1,88 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.sqlite3
+*.pkl
+
+# Django migrations
+**/migrations/
+!**/migrations/__init__.py
+
+# If you are using celery
+celerybeat-schedule
+celerybeat.pid
+
+# If you are using Django Debug Toolbar
+debug_toolbar/
+debug_toolbar/.*.sqlite3
+
+# Static files
+staticfiles/
+static/
+
+# Media files
+media/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+nosetests.xml
+coverage/
+*.coveragerc
+
+# Environments
+.env
+*.env
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# MacOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
+ehthumbs.db
